@@ -43,7 +43,7 @@ VALUES ('CARLOS', '25/06/2020','USUARIO DE PRUEBA 3', 'PRUEBA_AUX2', 'PUBLICIDAD
 
 
 ******
-2
+PARTE 2
 CREATE TABLE comentarios (
 	Id SERIAL, 
 	FEC_CREACION TIMESTAMP,
@@ -53,3 +53,8 @@ CREATE TABLE comentarios (
 	FOREIGN KEY (IdPost) REFERENCES comentarios(Id)
 );
 
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','1 post de Pamela', '1');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','2 post de Pamela', '1');
