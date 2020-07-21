@@ -70,3 +70,29 @@ VALUES ('20/05/2020 01:00:00','3 post de Carlos', '6');
 
 INSERT INTO comentarios (fec_creacion, contenido, IdPost)
 VALUES ('20/05/2020 01:00:00','4 post de Carlos', '6');
+
+
+
+INSERT INTO post (nomusu, fec_creacion, contenido, descripcion, titulo)
+VALUES ('MARGARITA', '25/06/2020','USUARIO DE PRUEBA 4', 'PRUEBA_AUX2', 'PUBLICIDAD');
+
+
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','1 post de Margarita', '7');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','2 post de Margarita', '7');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','3 post de Margarita', '7');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','4 post de Margarita', '7');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','5 post de Margarita', '7');
+
+
+
+
