@@ -50,7 +50,7 @@ CREATE TABLE comentarios (
 	CONTENIDO VARCHAR(20),
 	IdPost INT,
 	PRIMARY KEY (Id),
-	FOREIGN KEY (IdPost) REFERENCES comentarios(Id)
+	FOREIGN KEY (IdPost) REFERENCES post(Id)
 );
 
 INSERT INTO comentarios (fec_creacion, contenido, IdPost)
@@ -58,3 +58,15 @@ VALUES ('20/05/2020 01:00:00','1 post de Pamela', '1');
 
 INSERT INTO comentarios (fec_creacion, contenido, IdPost)
 VALUES ('20/05/2020 01:00:00','2 post de Pamela', '1');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','1 post de Carlos', '6');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','2 post de Carlos', '6');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','3 post de Carlos', '6');
+
+INSERT INTO comentarios (fec_creacion, contenido, IdPost)
+VALUES ('20/05/2020 01:00:00','4 post de Carlos', '6');
